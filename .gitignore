@@ -1,0 +1,13 @@
+# SISTEMA
+.DS_Store
+Thumbs.db
+
+# EDITOR
+.vscode/
+*.swp
+
+# DEPENDENDCIAS Y BUILD
+node_modules/
+dist/
+.env
+*.log

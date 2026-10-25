@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAW Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DAW Task Tracker 🚀</h1>
+            <p>Gestor de tareas interactivo para Desarrollo de Aplicaciones Web</p>
+        </header>
+
+        <section class="task-form-section">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Añadir una nueva tarea..." required>
+                <select id="priority-select">
+                    <option value="Baja">Prioridad Baja</option>
+                    <option value="Media" selected>Prioridad Media</option>
+                    <option value="Alta">Prioridad Alta</option>
+                </select>
+                <button type="submit">Añadir</button>
+            </form>
+        </section>
+
+        <section class="task-list-section">
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="pending">Pendientes</button>
+                <button class="filter-btn" data-filter="completed">Completadas</button>
+            </div>
+            <ul id="task-list"></ul>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
