@@ -17,3 +17,8 @@ Aplicación de gestión de tareas interactiva desarrollada para la asignatura de
 ## 🔜 Próximas mejoras (Roadmap)
 - Implementar filtrado por estado (Pendientes/Completadas).
 - Conexión con Back-end en Java (Spring Boot) y base de datos relacional.
+
+## 🚀 Instalación y uso local
+1. Clona este repositorio en tu equipo:
+   `git clone git@github.com:tu_usuario/tu-repositorio.git`
+2. Abre el archivo `index.html` en tu navegador web preferido.
